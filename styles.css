@@ -1,3 +1,9 @@
+body{
+    background-color: #e6f3ff;
+    padding: 100px;
+    
+}
+
 .tagline{
     color: blueviolet;
     font-style: italic;
@@ -10,6 +16,12 @@ img{
 .pricetopic{
     font-size: 25px;
     font-weight: bold;
+    padding-top: 150px;
+}
+
+.pricelist{
+    border: 1px solid black;
+
 }
 
 table{
@@ -19,6 +31,7 @@ table{
 
 td,th {
     text-align: left;
+    padding: 8px;
     
 }
 
@@ -31,6 +44,7 @@ footer{
     color: black;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
 
 }
